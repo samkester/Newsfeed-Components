@@ -124,11 +124,20 @@ function articleMaker(articleData){
   const articleText3 = document.createElement("p");  
   const expandButton = document.createElement("span");
 
+  articleHeading.textContent = articleData.title;
+  articleDate.textContent = articleData.date;
+  articleText1.textContent = articleData.firstParagraph;
+  articleText2.textContent = articleData.secondParagraph;
+  articleText3.textContent = articleData.thirdParagraph;
+  expandButton.textContent = "+";
+
   articleDiv.classList.add("article");
   articleDate.classList.add("date");
   expandButton.classList.add("expandButton");
 
   articleDiv.append(articleHeading, articleDate, articleText1, articleText2, articleText3, expandButton);
+
+  expandButton.addEventListener("click", () => articleDiv.classList.toggle("article-open"));
 
   return articleDiv;
 }
