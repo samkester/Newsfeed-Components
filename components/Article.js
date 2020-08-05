@@ -127,4 +127,14 @@ function articleMaker(articleData){
   articleDiv.classList.add("article");
   articleDate.classList.add("date");
   expandButton.classList.add("expandButton");
+
+  articleDiv.append(articleHeading, articleDate, articleText1, articleText2, articleText3, expandButton);
+
+  return articleDiv;
 }
+
+const articleHolder = document.querySelector("div.articles");
+
+data.forEach(item => {
+  articleHolder.append(articleMaker(item));
+});
