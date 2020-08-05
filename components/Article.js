@@ -86,6 +86,20 @@ const data = [
     thirdParagraph: `Hodor hodor - hodor... Hodor hodor hodor hodor. Hodor. Hodor! Hodor hodor, hodor hodor hodor hodor hodor; hodor hodor? Hodor!
           Hodor hodor, HODOR hodor, hodor hodor?! Hodor! Hodor hodor, HODOR hodor, hodor hodor, hodor, hodor hodor. Hodor, hodor.
           Hodor. Hodor, hodor, hodor. Hodor hodor... Hodor hodor hodor?! Hodor, hodor... Hodor hodor HODOR hodor, hodor hodor. Hodor.`
+  },
+  {
+    title: "Sogno di volare",
+    date: "Oct 20th, 2016",
+    firstParagraph: "Una volta che avrai spiccato il volo, deciderai sguardo verso il ciel saprai: li a casa il cuore sentirai. Una volta che avrai spiccato il volo, deciderai. Sguardo verso il ciel saprai: li a casa cuore sentirai.",
+    secondParagraph: "Prendera il primo volo verso il sole il grande uccello sorvolando il grande Monte Ceceri, riempendo l'universo di stupore e gloria. Una volta che avrai spiccato il volo, allora deciderai. Sguardo verso il ciel saprai: li a casa il cuore sentirai.",
+    thirdParagraph: "L'uomo verra portato dalla sua creazione come gli uccelli, verso il cielo... riempendo l'universo di stupore e gloria. Una volta che avrai spiccato il volo, deciderai. Sguardo verso il ciel saprai: li a casa cuore sentirai. Gloria! Gloria!"
+  },
+  {
+    title: "Chromaggia",
+    date: "May 29th, 2013",
+    firstParagraph: "Tanta tempo fa un uccello fatale di nome, Chromaggia. Incrocio in volo la freccia di un arciere lungo le coste di lava. Per anni, persando di essere inseguita, scappo dalla freccia, Chromaggia.",
+    secondParagraph: "Chromaggia, perche non affronti il pericolo? La freccia era legata all'ala e lei volava per liberarsene. Tirando la freccia, altri son ferriti per mia colpa, mia colpa!",
+    thirdParagraph: "Giu! Veso la bocca del diavolo! La sua freccia, i miei occhi! Chromaggia - come take these eyes! I would rather be blind."
   }
 ];
 
